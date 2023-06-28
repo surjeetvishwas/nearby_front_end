@@ -1,0 +1,16 @@
+.card_style {
+    width: 70%;
+}
+
+.inside_flex{
+    flex-direction: row;
+}
+
+@media screen and (max-width: 500px) {
+    .card_style {
+        max-width: 100%;
+    }
+    .inside_flex{
+        flex-direction: column;
+    }
+}
